@@ -7,7 +7,7 @@
  */
 
 /** Base URL for all Auth_API requests. Single location to change environments. */
-export const BACKEND_URL = 'http://10.0.2.2:3001';
+export const BACKEND_URL = 'http://109.205.181.195:3001';
 
 /** AsyncStorage key for the JWT access token. */
 export const ACCESS_TOKEN_KEY = '@veeder/access_token';
