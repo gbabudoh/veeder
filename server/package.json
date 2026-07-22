@@ -1,0 +1,50 @@
+{
+  "name": "veeder-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend authentication service for the veeder mobile app (user-registration-backend)",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "set-role": "ts-node src/scripts/setRole.ts",
+    "migrate": "knex migrate:latest --knexfile knexfile.ts",
+    "rollback": "knex migrate:rollback --knexfile knexfile.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "argon2": "0.41.1",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "express-rate-limit": "7.5.0",
+    "jsonwebtoken": "9.0.2",
+    "knex": "3.1.0",
+    "pg": "8.13.1",
+    "pino": "9.6.0",
+    "pino-http": "10.4.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/express": "4.17.21",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "9.0.7",
+    "@types/node": "22.10.7",
+    "@types/supertest": "^6.0.2",
+    "fast-check": "^3.23.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}

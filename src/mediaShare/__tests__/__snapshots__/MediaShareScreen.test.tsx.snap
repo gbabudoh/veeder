@@ -1,0 +1,1316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the access_required state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="Media access is required to share media."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      Media access is required to share media.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the cannot_share state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "stretch",
+        "gap": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "height": 240,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        accessibilityLabel="Selected video preview frame"
+        accessibilityRole="image"
+        resizeMode="cover"
+        source={
+          {
+            "uri": "file:///big-frame.jpg",
+          }
+        }
+        style={
+          {
+            "backgroundColor": "#e5e7eb",
+            "borderRadius": 8,
+            "height": 240,
+            "width": "100%",
+          }
+        }
+        testID="media-share-preview-image"
+      />
+      <View
+        accessibilityLabel="Video"
+        accessibilityRole="image"
+        pointerEvents="none"
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "position": "absolute",
+            "width": 64,
+          }
+        }
+        testID="media-share-play-indicator"
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 28,
+              "marginLeft": 4,
+            }
+          }
+        >
+          ▶
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessibilityLabel="big.mp4"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 14,
+        }
+      }
+      testID="media-share-filename"
+    >
+      big.mp4
+    </Text>
+    <View
+      accessibilityLabel="Share this item"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#16a34a",
+          "borderRadius": 8,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+      testID="media-share-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="This file exceeds the 100 MB limit. Choose a smaller file."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      This file exceeds the 100 MB limit. Choose a smaller file.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the exceeds_size state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="This file exceeds the 100 MB limit. Choose a smaller file."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      This file exceeds the 100 MB limit. Choose a smaller file.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the oversize state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="This item exceeds the 100 MB limit. Choose a smaller item."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      This item exceeds the 100 MB limit. Choose a smaller item.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the share_unavailable state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "stretch",
+        "gap": 12,
+      }
+    }
+  >
+    <Image
+      accessibilityLabel="Selected image preview"
+      accessibilityRole="image"
+      resizeMode="cover"
+      source={
+        {
+          "uri": "file:///a.jpg",
+        }
+      }
+      style={
+        {
+          "backgroundColor": "#e5e7eb",
+          "borderRadius": 8,
+          "height": 240,
+          "width": "100%",
+        }
+      }
+      testID="media-share-preview-image"
+    />
+    <Text
+      accessibilityLabel="a.jpg"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 14,
+        }
+      }
+      testID="media-share-filename"
+    >
+      a.jpg
+    </Text>
+    <View
+      accessibilityLabel="Share this item"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#16a34a",
+          "borderRadius": 8,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+      testID="media-share-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="Sharing is currently unavailable. Please try again."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      Sharing is currently unavailable. Please try again.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - error-banner messages renders the exact banner text for the unsupported_type state 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="This file type is not supported. Choose a JPEG, PNG, GIF, MP4, or QuickTime file."
+    accessibilityRole="alert"
+    style={
+      {
+        "backgroundColor": "#fef2f2",
+        "borderColor": "#fca5a5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "padding": 12,
+      }
+    }
+    testID="media-share-message"
+  >
+    <Text
+      style={
+        {
+          "color": "#991b1b",
+          "fontSize": 14,
+        }
+      }
+    >
+      This file type is not supported. Choose a JPEG, PNG, GIF, MP4, or QuickTime file.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - preview area Ready + image preview renders the preview image, filename label, and share button 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "stretch",
+        "gap": 12,
+      }
+    }
+  >
+    <Image
+      accessibilityLabel="Selected image preview"
+      accessibilityRole="image"
+      resizeMode="cover"
+      source={
+        {
+          "uri": "file:///photo.jpg",
+        }
+      }
+      style={
+        {
+          "backgroundColor": "#e5e7eb",
+          "borderRadius": 8,
+          "height": 240,
+          "width": "100%",
+        }
+      }
+      testID="media-share-preview-image"
+    />
+    <Text
+      accessibilityLabel="photo.jpg"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 14,
+        }
+      }
+      testID="media-share-filename"
+    >
+      photo.jpg
+    </Text>
+    <View
+      accessibilityLabel="Share this item"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#16a34a",
+          "borderRadius": 8,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+      testID="media-share-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - preview area Ready + unavailable preview renders the placeholder and no image 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "stretch",
+        "gap": 12,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Preview unavailable"
+      accessibilityRole="image"
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#e5e7eb",
+          "borderRadius": 8,
+          "height": 240,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+      testID="media-share-placeholder"
+    >
+      <Text
+        style={
+          {
+            "color": "#6b7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        Preview unavailable
+      </Text>
+    </View>
+    <Text
+      accessibilityLabel="mystery.mov"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 14,
+        }
+      }
+      testID="media-share-filename"
+    >
+      mystery.mov
+    </Text>
+    <View
+      accessibilityLabel="Share this item"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#16a34a",
+          "borderRadius": 8,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+      testID="media-share-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`MediaShareScreen - preview area Ready + video preview renders the frame image AND the play indicator 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 16,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Share media"
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2563eb",
+        "borderRadius": 8,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 12,
+      }
+    }
+    testID="media-share-trigger"
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Share media
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "stretch",
+        "gap": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "height": 240,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        accessibilityLabel="Selected video preview frame"
+        accessibilityRole="image"
+        resizeMode="cover"
+        source={
+          {
+            "uri": "file:///clip-frame.jpg",
+          }
+        }
+        style={
+          {
+            "backgroundColor": "#e5e7eb",
+            "borderRadius": 8,
+            "height": 240,
+            "width": "100%",
+          }
+        }
+        testID="media-share-preview-image"
+      />
+      <View
+        accessibilityLabel="Video"
+        accessibilityRole="image"
+        pointerEvents="none"
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            "borderRadius": 32,
+            "height": 64,
+            "justifyContent": "center",
+            "position": "absolute",
+            "width": 64,
+          }
+        }
+        testID="media-share-play-indicator"
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 28,
+              "marginLeft": 4,
+            }
+          }
+        >
+          ▶
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessibilityLabel="clip.mp4"
+      numberOfLines={1}
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 14,
+        }
+      }
+      testID="media-share-filename"
+    >
+      clip.mp4
+    </Text>
+    <View
+      accessibilityLabel="Share this item"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#16a34a",
+          "borderRadius": 8,
+          "opacity": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+      testID="media-share-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </View>
+</View>
+`;
